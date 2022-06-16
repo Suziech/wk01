@@ -1,24 +1,73 @@
 html, body {
-    height: 100%
-}
-
-html {
-    display: table;
-    margin: auto;
+    background-color: #F1FF03;
+    height:100%;
+    font-family: 'Roboto Mono', monospace;
 }
 
 body {
-    display: table-cell;
+    display: table;
+    margin-left: 50px;
+}
+
+h1 {
+    text-align: right;
+    font-size: 80px;
+    font-family: 'Roboto Mono', monospace;
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+h4 {
+    color: black;
+}
+
+.main_pic {
+    width: 500px;
+    height: 500px;
+    background: url("https://cdn.pixabay.com/photo/2020/04/06/15/14/snowboard-5010041_960_720.jpg") no-repeat center;
+    border-radius: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -180px 0 0 -550px;
     vertical-align: middle;
 }
 
-
-.picture {
-    width: 400px;
-    border-radius : 80px;
+.main_pic:hover {
+    width: 500px;
+    height: 500px;
+    background: url("2.jpg") no-repeat center;
+    border-radius: 300px;
 }
 
-.whole_page {
-    margin: 0 auto;
+.menu {
+    font-size: 100px;
+    display: contents;
+    padding: 30px;
+    width: 130px;
+    margin: 10px;
+    border: red solid 2px;
 }
 
+.flexbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 0;
+
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.text {
+    font-weight: bold;
+    font-size: 50px;
+}

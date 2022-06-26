@@ -78,13 +78,14 @@ h4 {
 }
 
 .paragraph {
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .introduction {
     width: 570px;
     margin: 0px auto;
     text-align: center;
+    /*border: red solid 2px;*/
 }
 
 .menu2 {
@@ -109,7 +110,7 @@ h4 {
     width: 570px;
     margin: 0px auto;
     text-align: center;
-    border: 2px solid red;
+    /*border: 2px solid red;*/
     display: flex;
     flex-direction: column;
 
@@ -121,12 +122,30 @@ h4 {
 }
 
 .travel_pic {
-    width: 1000px;
+    width: 400px;
     height: 300px;
-    border: blue 2px solid;
+    /*border: blue 2px solid;*/
 }
 
 .travel_detail {
-    border: red solid 2px;
+    /*border: red solid 2px;*/
     width: 500px;
+    padding-left: 20px;
+    margin-top: -15px;
+}
+
+.book {
+    width: 400px;
+    height: 200px;
+}
+
+.pic {
+    width: 400px;
+    height: 98px;
+}
+
+/*hobbies page*/
+
+.table {
+    border: white solid 2px;
 }

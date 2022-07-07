@@ -54,7 +54,7 @@ h4 {
 }
 
 .main_pic:hover {
-    background: url("2.jpg") no-repeat center;
+    background: url("img/2.jpeg") no-repeat center;
 }
 
 .row {
@@ -62,6 +62,7 @@ h4 {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
+    width: 500px;
 }
 
 .menu {

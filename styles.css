@@ -150,3 +150,12 @@ h4 {
 .table {
     border: white solid 2px;
 }
+
+/*dark mode*/
+#dark_mode {
+    font-size: 18px;
+    background-color: black;
+    color:#F1FF03;
+    border-radius: 10px;
+    border: black 0px;
+}
